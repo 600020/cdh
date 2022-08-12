@@ -1,0 +1,28 @@
+/*how we can make comments*/
+/*Lets do this right from the start*/
+
+body{
+    margin:25px;  
+
+}
+
+h1{
+    color: blue;
+    background-color: lightgrey;
+    text-align: center;
+
+}
+
+h2{
+    background-color: lightgrey;
+}
+
+nav{
+    text-align: center;
+    background-color: lightblue;
+}
+
+footer{
+    
+
+}
