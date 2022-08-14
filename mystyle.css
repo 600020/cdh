@@ -1,28 +1,71 @@
-/*how we can make comments*/
-/*Lets do this right from the start*/
 
 body{
-    margin:25px;  
+    margin:25px;
+    /*background: rgb(225, 224, 224);*/  
 
 }
 
-h1{
-    color: blue;
-    background-color: lightgrey;
-    text-align: center;
+header{
+    background: hsl(0, 0%, 68%);
+    padding: 1px;
+    border: groove gray;
 
-}
-
-h2{
-    background-color: lightgrey;
 }
 
 nav{
     text-align: center;
-    background-color: lightblue;
+    
+}
+
+span{
+    font-weight: bold;
+    background: rgba(136, 236, 251, 0.895);
+    display: inline-block;
+    padding: 2px;
+    
+}
+
+h1{ 
+    text-align: center;
+
+}
+
+
+h2{
+    text-align: center;
+     background-color: hsl(0, 0%, 68%);
+     border: groove gray;
+     
+ }
+
+
+ section{
+    width:30%;
+	margin: 1%;
+	float:left;
+    
+}
+
+div{
+    border: ridge;
+    background: lightblue;
+}
+
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
+}
+
+img{
+    padding-left: 1.5%;
 }
 
 footer{
+    background: lightgray;
+    clear: both;
     
 
 }
