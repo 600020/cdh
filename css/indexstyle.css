@@ -32,30 +32,9 @@ h2{
     margin-bottom: 0%;
     margin-top: 1%;
 }
-.flex-container{
-    background: #ffffff;
-    min-height: 300px;
-    
-    display: -webkit-flex; /* Safari */     
-    display: flex; /* Standard syntax */
-}
-.flex-container .sidebar{
-    width: 20%;
-    padding: 1%;
-    border-right:solid 1px rgb(0,0,0);
-    border-left:solid 1px rgb(0,0,0);
-    font-size: smaller;
-    /* padding: 10px;
-    background: #dbdfe5; */
-    -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
-    flex: 1; /* Standard syntax */
-}
-.flex-container .mid{
-    padding: 1%;
-}
 
-/* .sidebar{
+
+.sidebar{
     float: left;
     width: 20%;
     background: #ffffff;
@@ -68,14 +47,14 @@ h2{
 .sidebar h3{
     font-size: smaller;
     text-align: center;
-} */
-/* .mid{
+}
+.mid{
     background: #ffffff;
-    text-align: center;
+    background: radial-gradient(#ffffff, #c2b8b8);
     margin-top: 0%;
-    padding-top: 1%;
+    padding: 1%;
     margin-bottom: 0%;
-} */
+}
 
 /* .grid {
     background: rgb(255,255,255);
@@ -115,8 +94,12 @@ h2{
     float: right;
     padding-right: 1%;
 } */ 
+.lto{
+    width: 10px;
+    height: 10px;
+}
 
-img{
+.logo{
     float: right;
     vertical-align: top;
     margin-right: 2%;
