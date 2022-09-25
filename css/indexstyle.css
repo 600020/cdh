@@ -1,0 +1,238 @@
+
+body{
+    margin:20px;
+    background: rgb(225, 224, 224);  
+
+}
+
+header{
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 5px;
+    background: #666666;
+    background: linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	
+}
+
+
+h1{ 
+    text-align: center;
+
+}
+
+
+h2{
+    /* background-color: hsl(0, 0%, 68%);
+    border-radius: 5px; */
+    /* text-align: center; */
+    margin-bottom: 0%;
+    margin-top: 1%;
+}
+
+
+.sidebar{
+    float: left;
+    width: 20%;
+    background: #ffffff;
+    font-size: smaller;
+    border-right:solid 1px rgb(0,0,0);
+    border-left:solid 1px rgb(0,0,0);
+    text-align: left;
+    padding-right: 1%;
+}
+.sidebar h3{
+    font-size: smaller;
+    text-align: center;
+}
+.mid{
+    background: #ffffff;
+    background: radial-gradient(#ffffff, #c2b8b8);
+    margin-top: 0%;
+    padding: 1%;
+    margin-bottom: 0%;
+}
+
+/* .grid {
+    background: rgb(255,255,255);
+    display: inline-block;
+    width: 100%; */
+
+.endmid{
+    margin-bottom: 0;
+    padding-bottom: 1%;
+}
+
+/* .block1{
+    width:30%;
+    float: left;
+    padding-left: 1%;
+	/*margin: 0.9em;
+    vertical-align: top;
+    text-align: center;*/
+/* }
+.block1,.block2,.block3, a{
+    text-decoration-line: none;
+}
+.block1,.block2,.block3{
+    text-align: center;
+}
+
+.block2{
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.block3{
+    width: 30%;
+    float: right;
+    padding-right: 1%;
+} */ 
+.lto{
+    width: 10px;
+    height: 10px;
+}
+
+.logo{
+    float: right;
+    vertical-align: top;
+    margin-right: 2%;
+    border-radius: 5px;
+    width: 80px;
+    height: 50px;
+}
+
+/* footer{
+    /*background: lightblue;*/
+    /* clear: both; */
+
+/* } */
+.footerh2{
+    border-radius: 5px;
+}
+/*THEO very cool color background: radial-gradient(#00ffc8, #293f50);*/
+.navbar {
+    text-align: center;
+    margin: 0% 2% 1% 2%;
+    border: 1px solid #d4d4d4;
+    background: #868a8a;
+    /* background: radial-gradient(#00ffc8, #293f50); */
+    background: radial-gradient(#ffffff, #c2b8b8);
+    border-radius: 6px;
+    padding: 1%;
+}
+.navbar> a,
+.navbar> a:hover, 
+.navbar> a:focus{
+    float: none;
+    padding: 2px ;
+    margin: 0.2%;
+    /* color: #777777; */
+    color: #323232;
+    text-decoration: none;
+    background-color: #dbd7d7;
+    text-shadow: 0 1px 0 #ffffff;
+    border-radius: 3px;
+    /* border: groove 1px lightgrey;  */
+}
+ .navbar > p{
+    font-size: 10px;
+    margin-bottom: 0;
+ }
+
+.tocome{
+    display: inline-block;
+    /* list-style-type: none; */
+}
+.tocome > ol> .li, a{
+    text-decoration: none;
+    color: black;
+}
+
+.footbar{
+    margin-left: 2.3%;
+}
+footer{
+    clear: left;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 1% 2% 3% 2%;
+    background: #666666;
+    background: linear-gradient( #00b7ea 0%, #666666 100%);
+	background: -moz-linear-gradient(top,#00b7ea 0% #666666 100%);
+	background: -webkit-linear-gradient( #00b7ea 0%, #666666 100%);
+	background: -o-linear-gradient(#00b7ea 0%, #666666 100%);
+}
+footer>p{
+    font-size: 10px;
+    
+}
+footer a{
+    color:rgb(255,255,255);
+    font-weight: bolder;
+    font-size: 12px;  
+}
+
+
+/* .footbar{
+    
+        text-align: center;
+        margin: 0% 1% 1% 1%;
+        border: 1px solid #d4d4d4;
+        background: #868a8a;
+        background: radial-gradient(#ffffff, #c2b8b8);
+        border-radius: 6px;
+        padding: 1%;
+    
+} */
+/* ul{
+    list-style-type: none;
+    /* vertical-align: middle; */
+/* }
+
+
+li{
+    display: inline-block;
+    padding: 1px 1px 1px 1px;
+    
+} */
+
+/********************************************************/
+/*header{
+    background: hsl(0, 0%, 68%);
+    padding: 1px;
+
+}*/
+ /* min-height: 40px; */
+    /* padding-right: 20px;
+    padding-left: 20px; */
+
+    /*nav{
+    text-align: center;
+    
+}*/
+
+/* nav a{
+    background: rgba(190, 219, 223, 0.895);
+    /*background-color: rgb(77, 148, 255);*/
+    /*display: inline-block;
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration-line: none;
+} */
+
+/*I took out span in html*/
+/*span{
+    font-weight: bold;
+    background: rgba(136, 236, 251, 0.895);
+    display: inline-block;
+    padding: 2px;
+}*/
